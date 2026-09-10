@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { 
 
   /* ---------------------------------------------------------
      Sticky nav background on scroll
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
      Portfolio data — one preview card per niche is shown on the
      page; clicking it opens this category's full 5-image gallery
      in the lightbox. Every path below matches an existing file in
-     assets/img/ (none were removed, only regrouped: WordPress and
+      (none were removed, only regrouped: WordPress and
      Shopify images now sit together under "web" / Website
      Development, per the single-niche positioning).
   --------------------------------------------------------- */
@@ -162,44 +162,44 @@ document.addEventListener('DOMContentLoaded', function () {
       label: 'Website Development',
       sub: 'WordPress & Shopify',
       images: [
-        { src: 'assets/img/wordpress-01.jpg', alt: 'Website Development portfolio piece 1 — WordPress homepage design' },
-        { src: 'assets/img/wordpress-02.jpg', alt: 'Website Development portfolio piece 2 — WordPress landing page layout' },
-        { src: 'assets/img/wordpress-03.jpg', alt: 'Website Development portfolio piece 3 — WordPress page design and structure' },
-        { src: 'assets/img/shopify-01.jpg', alt: 'Website Development portfolio piece 4 — Shopify store homepage and product layout' },
-        { src: 'assets/img/shopify-02.jpg', alt: 'Website Development portfolio piece 5 — Shopify product and collection page design' }
+        { src: 'wordpress-01.jpg', alt: 'Website Development portfolio piece 1 — WordPress homepage design' },
+        { src: 'wordpress-02.jpg', alt: 'Website Development portfolio piece 2 — WordPress landing page layout' },
+        { src: 'wordpress-03.jpg', alt: 'Website Development portfolio piece 3 — WordPress page design and structure' },
+        { src: 'shopify-01.jpg', alt: 'Website Development portfolio piece 4 — Shopify store homepage and product layout' },
+        { src: 'shopify-02.jpg', alt: 'Website Development portfolio piece 5 — Shopify product and collection page design' }
       ]
     },
     smm: {
       label: 'Social Media Management',
       sub: 'Content & Community',
       images: [
-        { src: 'assets/img/smm-01.jpg', alt: 'Social Media Management portfolio piece 1 — brand growth and engagement overview' },
-        { src: 'assets/img/smm-02.jpg', alt: 'Social Media Management portfolio piece 2 — content strategy and results dashboard' },
-        { src: 'assets/img/smm-03.jpg', alt: 'Social Media Management portfolio piece 3 — platform strategy and analytics overview' },
-        { src: 'assets/img/smm-04.jpg', alt: 'Social Media Management portfolio piece 4 — content creation and engagement impact' },
-        { src: 'assets/img/smm-05.jpg', alt: 'Social Media Management portfolio piece 5 — audience growth and results summary' }
+        { src: 'smm-01.jpg', alt: 'Social Media Management portfolio piece 1 — brand growth and engagement overview' },
+        { src: 'smm-02.jpg', alt: 'Social Media Management portfolio piece 2 — content strategy and results dashboard' },
+        { src: 'smm-03.jpg', alt: 'Social Media Management portfolio piece 3 — platform strategy and analytics overview' },
+        { src: 'smm-04.jpg', alt: 'Social Media Management portfolio piece 4 — content creation and engagement impact' },
+        { src: 'smm-05.jpg', alt: 'Social Media Management portfolio piece 5 — audience growth and results summary' }
       ]
     },
     meta: {
       label: 'Meta Ads',
       sub: 'Campaign Setup & Optimization',
       images: [
-        { src: 'assets/img/meta-ads-01.jpg', alt: 'Meta Ads portfolio piece 1 — Facebook and Instagram e-commerce campaign report' },
-        { src: 'assets/img/meta-ads-02.jpg', alt: 'Meta Ads portfolio piece 2 — campaign performance breakdown' },
-        { src: 'assets/img/meta-ads-03.jpg', alt: 'Meta Ads portfolio piece 3 — audience targeting and results overview' },
-        { src: 'assets/img/meta-ads-04.jpg', alt: 'Meta Ads portfolio piece 4 — ad creative and conversion summary' },
-        { src: 'assets/img/meta-ads-05.jpg', alt: 'Meta Ads portfolio piece 5 — campaign reach and spend efficiency report' }
+        { src: 'meta-ads-01.jpg', alt: 'Meta Ads portfolio piece 1 — Facebook and Instagram e-commerce campaign report' },
+        { src: 'meta-ads-02.jpg', alt: 'Meta Ads portfolio piece 2 — campaign performance breakdown' },
+        { src: 'meta-ads-03.jpg', alt: 'Meta Ads portfolio piece 3 — audience targeting and results overview' },
+        { src: 'meta-ads-04.jpg', alt: 'Meta Ads portfolio piece 4 — ad creative and conversion summary' },
+        { src: 'meta-ads-05.jpg', alt: 'Meta Ads portfolio piece 5 — campaign reach and spend efficiency report' }
       ]
     },
     google: {
       label: 'Google Ads Campaign',
       sub: 'Search, Display & Shopping',
       images: [
-        { src: 'assets/img/google-ads-01.jpg', alt: 'Google Ads Campaign portfolio piece 1 — search campaign performance report' },
-        { src: 'assets/img/google-ads-02.jpg', alt: 'Google Ads Campaign portfolio piece 2 — conversion tracking and results' },
-        { src: 'assets/img/google-ads-03.jpg', alt: 'Google Ads Campaign portfolio piece 3 — keyword and impression share overview' },
-        { src: 'assets/img/google-ads-04.jpg', alt: 'Google Ads Campaign portfolio piece 4 — cost per click and click-through summary' },
-        { src: 'assets/img/google-ads-05.jpg', alt: 'Google Ads Campaign portfolio piece 5 — campaign growth and ROI overview' }
+        { src: 'google-ads-01.jpg', alt: 'Google Ads Campaign portfolio piece 1 — search campaign performance report' },
+        { src: 'google-ads-02.jpg', alt: 'Google Ads Campaign portfolio piece 2 — conversion tracking and results' },
+        { src: 'google-ads-03.jpg', alt: 'Google Ads Campaign portfolio piece 3 — keyword and impression share overview' },
+        { src: 'google-ads-04.jpg', alt: 'Google Ads Campaign portfolio piece 4 — cost per click and click-through summary' },
+        { src: 'google-ads-05.jpg', alt: 'Google Ads Campaign portfolio piece 5 — campaign growth and ROI overview' }
       ]
     }
   };
